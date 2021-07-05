@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style type="text/css">
+    	.h{
+    		height: 100vh;
+    	}
+    	.fa{font-size: 30px;}
+    	.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff; background-color: #cce5ff;
+    border-left: 4px solid #1076b5;}
+        </style>
+</head>
+<body>
+<section class="row m-1 p-0">
+	<section class="col-md-2 col-sm-12 shadow h bg-light ">
+		<div class="text-center">
+			<img src="i2.png" width="140" height="140">
+		</div>
+		<ul class="nav nav-pills flex-column text-center">
+		  <li class="nav-item">
+		    <a class="nav-link " data-toggle="pill" href="#menu1">
+		    	<i class="fa fa-user-o" ></i>
+                <p class="">Students</p>
+            </a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link active" data-toggle="pill" href="#home">
+		    	<i class="fa fa-book "></i>
+                <p class=""><b>Lession Plan</b></p></a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" data-toggle="pill" href="#menu2">
+		   	<i class="fa fa-gear"></i>
+            <p class="">Settings</p></a>
+				
+		  </li>
+		</ul>
+
+	</section>
+	<section class="col-md-10 col-sm-12 ">
+		 <div class="tab-content ">
+    <div id="home" class=" tab-pane active h "><br>
+      <h3 class="py-5"></h3>
+       <div class="bg-light py-5">
+       	 <span class="fa fa-caret-left fs p-4 text-secondary"><b class="fs p-2">Videos</b></span>
+       	<form class="p-5">
+       		<div class="form-group ">
+       			<input type="url" name="url" class="form-control" placeholder="Enter Url Here">
+       		</div>
+       		<h5 class="text-center py-5">OR</h5>
+       		<div class="py-5 bg-white w-25">
+       			<input type="file" name="url" class="" value="Upload">
+       		</div>
+       	</form>
+       </div>
+    </div>
+    <div id="menu1" class=" tab-pane fade"><br>
+      <h3>Settting data</h3>
+     </div>
+    <div id="menu2" class=" tab-pane fade"><br>
+      <h3>Other Data</h3>
+    </div>
+  </div>
+</div>
+	</section>
+</section>
+</body>
+</html>
+
+
+
+
